@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chessBoard { 
+  border-spacing: 0; 
+  border-collapse: collapse; 
+  margin: 50px auto;
+}
+
+.chessBoard th { 
+  padding: .5em; 
+  font-size: 1.5rem;
+}
+
+.chessBoard td { 
+  border: 1px solid; 
+  width: 100px;
+  height: 100px; 
+}
+
+.chessBoard .light { 
+  background: #eee; 
+  color: #000;
+  font-size: 3.5rem;
+}
+
+.chessBoard .dark { 
+  background: #000; 
+  color: #eee;
+  font-size: 3.5rem;
+}
